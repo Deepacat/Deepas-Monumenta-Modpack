@@ -1,0 +1,67 @@
+
+[poi]
+	toggle_poi = false
+	internal_poi_url = "https://raw.githubusercontent.com/U5B/Monumenta/main/out/pois.json"
+
+[compass]
+	toggle_compass = false
+
+[health_general]
+
+	[health_general.general]
+		toggle_whitelist = false
+		player_names_separated_by_spaces_to_allow = ""
+		update_rate_in_ticks = 1
+
+	[health_general.hitbox]
+		toggle_boxhealth = false
+		"color_glowing_players!" = false
+		alpha_percentage_of_inside_box = 0.0
+
+[health_colors]
+
+	[health_colors.color]
+		hurt_color_toggle = false
+		fire_color_toggle = false
+		good_hp_percent = 9.0
+		low_hp_percent = 0.7
+		critical_hp_percent = 0.4
+		base_hp_color = "255,192,192,192"
+		good_hp_color = "255,0,255,0"
+		low_hp_color = "255,255,255,0"
+		critical_hp_color = "255,255,0,0"
+		hurt_color = "255,255,200,0"
+		fire_color = "255,128,128,128"
+
+[health_draw]
+
+	[health_draw.draw]
+		toggle_drawhealth = false
+		x_position_percent = 0.0
+		y_position_percent = 0.0
+		text_alignment_percent = 0.0
+		text_scale = 1.0
+		display_recent_damage = false
+		damage_hide_delay_in_ticks = 10
+		recent_damage_alignment = false
+		sort_player_list_by = 0
+
+[misc]
+	sneak_to_toggle_between_pickup_states = true
+	sneaking_delay_in_ticks = 10
+	pickup_mode = 0
+
+[_debug]
+	toggle_debug = false
+	print_contents_of_opened_chests = false
+
+[maow]
+	toggle_maow = false
+	x_position_percent = 0.0
+	y_position_percent = 0.0
+	maow_image_height = 150
+	maow_image_width = 150
+	maow_image_alpha = 255
+	maow_refresh_delay_in_seconds = 0
+	maow_image_url = "https://catgirl.usbwire.net"
+

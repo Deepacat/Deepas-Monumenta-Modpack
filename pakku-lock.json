@@ -3715,6 +3715,46 @@
                     "date_published": "2023-12-11T22:48:56.451495Z"
                 }
             ]
+        },
+        {
+            "pakku_id": "cJoMy6QD4osm6RQv",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "usbplus"
+            },
+            "name": {
+                "modrinth": "usbplus"
+            },
+            "id": {
+                "modrinth": "b6qJY4kH"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "usbplus-2.0.0+1.20.4+2c5f5142.jar",
+                    "mc_versions": [
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://cdn.modrinth.com/data/b6qJY4kH/versions/Z7HKLen2/usbplus-2.0.0+1.20.4+2c5f5142.jar",
+                    "id": "Z7HKLen2",
+                    "parent_id": "b6qJY4kH",
+                    "hashes": {
+                        "sha512": "b529ab7763ab83f02786b4b9cfff5d6d46063ef92ba58e33958229adda33ab04e6101c1fe9f8769408057e84005f6cf79809d5dfa19ebb612e0019f169de865a",
+                        "sha1": "95b38c9b31e7aacacc64bc0f0b231bd34e122d53"
+                    },
+                    "required_dependencies": [
+                        "Ha28R6CL",
+                        "P7dR8mSH"
+                    ],
+                    "size": 4144942,
+                    "date_published": "2024-11-12T05:37:35.592304Z"
+                }
+            ]
         }
     ],
     "lockfile_version": 1
