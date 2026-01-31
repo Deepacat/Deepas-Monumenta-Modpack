@@ -1,6 +1,8 @@
-# Minecraft
+## Minecraft root folders to ignore
 /local/
 /saves/
+/data/
+# Do not unignore mods jars, add to pakku overrides
 /mods/
 /logs/
 /crash-reports/
@@ -19,21 +21,31 @@
 /shaderpacks
 /debug
 /asm
+
+## Minecraft root specific files to ignore
 /patchouli_data.json
 /ds_private_storage.json
 /cherishedworlds-favorites.dat
-
 /icon.png
 /options.txt
 /rhino.local.properties
 /usercache.json
 /usernamecache.json
 /emi.json
-servers.dat
-servers.dat_old
-hs_err*
+/.env
+/servers.dat
+/servers.dat_old
+/hs_err*
+/command_history.txt
 
-# Pakku
+## Ignored Configs
+# Preset configs to be shipped with the modpack should be placed into yosbr
+/config/*
+!/config/yosbr/**
+
+### Mostly stuff that shouldn't be tweaked below here
+
+## Pakku
 /build/
 /.pakku/shelf
 /!.pakku/
@@ -41,83 +53,27 @@ hs_err*
 /!pakku.json
 /!pakku-lock.json
 
-# Node.js
+## Node.js
 /**/node_modules/
 
-# dotenv
-.env
-
-# VSCode
+## VSCode
 !/.vscode/*.code-workspace
 /.vscode/*
 
-# ProbeJS
-/kubejs/probe/
-/kubejs/config/probejs.json
-/kubejs/config/probe-settings.json
-/kubejs/*/jsconfig.json
-
-# Client configs (with exceptions below)
-/config/*client.*
-
-!/config/defaultsettings/**
-!/config/sophisticatedstorage-client.toml
-!/config/**/darkmodeeverywhere-client.toml
-!/config/create-client.toml
-!/config/botania-client.toml
-!/config/defaultsettings/Default/options.txt
-
-# Configs (generaly ones that tend to edit the date on launch)
-/config/fml.toml
-/config/jei/world/local/*
-/config/fabric/indigo-renderer.properties
-/config/roughlyenoughitems/pinyin*.properties
-/config/trofers/general.json5
-/config/roughlyenoughitems/config.json5
-/config/sidebar_buttons.json
-/config/oculus.properties
-/config/modernfix-mixins.properties
-/config/immediatelyfast.json
-/config/ftbbackups2.json
-/config/packetfixer.properties
-/config/spark/tmp/
-/config/spark/activity.json
-/config/roughlyenoughitems/hints.json
-/config/voicechat/username-cache.json
-/config/minihud/*
-/config/embeddium-fingerprint.json
-/config/chiselsandbits-common.toml
-/config/defaultworldtype/world-presets.txt
-/config/jecalculation/record.json
-/config/jade/sort-order.json
-/config/jei*
-/config/embeddium++.toml
-/config/emi.css
-/config/darkmodeeverywhereshaders*
-/config/ichunutil/themes/
-/config/gtceu.yaml
-/config/konkrete/locals*
-/defaultconfigs/ftbultimine/ftbultimine-*.snbt
-/config/defaultsettings.json
-/config/embeddium-options.json
-/config/xaerominimap.txt
-/config/crash_assistant/modlist.json
-/config/tunnelyrefab.json
-
-# Linux
+## Linux
 *~
 /.fuse_hidden*
 /.directory
 /.Trash-*
 
-# Windows
+## Windows
 /Thumbs.db
 /ehthumbs.db
 /Desktop.ini
 /$RECYCLE.BIN/
 /*.lnk
 
-# macOS
+## macOS
 /.DS_Store
 /.AppleDouble
 /.LSOverride

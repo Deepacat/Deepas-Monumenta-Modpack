@@ -1,7 +1,13 @@
 {
-    "name": "Deepas Monumenta Pack\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C'",
-    "version": "0.0.1",
+    "name": "Deepas Monumenta Pack",
+    "version": "DEV",
+    "release_type": "release",
+    "description": "Polished modpack for the Monumenta server",
+    "author": "Deepacat",
     "overrides": [
         "config"
+    ],
+    "client_overrides": [
+        "resourcepacks"
     ]
 }
