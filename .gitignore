@@ -1,4 +1,7 @@
 ## Minecraft root folders to ignore
+/.fabric/
+/.mixin.out/
+/.improper-ui/
 /local/
 /saves/
 /data/
@@ -15,8 +18,6 @@
 /fancymenu_data/
 /ESM/
 /xaero/
-/.fabric/
-/.mixin.out/
 /XaeroWaypoints*
 /shaderpacks
 /debug
