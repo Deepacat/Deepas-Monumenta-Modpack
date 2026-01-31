@@ -41,7 +41,7 @@
 ## Ignored Configs
 # Preset configs to be shipped with the modpack should be placed into yosbr
 /config/*
-!/config/yosbr/**
+!/config/yosbr/
 
 ### Mostly stuff that shouldn't be tweaked below here
 
