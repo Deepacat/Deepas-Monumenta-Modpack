@@ -24,7 +24,7 @@
   "hudBarFontBackingOpacity": 0.0,
   "inWorldHudEnabled": true,
   "inWorldHudForSelf": false,
-  "inWorldHUDActivation": "DAMAGED_AND_NEARBY",
+  "inWorldHUDActivation": "NEARBY_ONLY",
   "inWorldHudOpacity": 1.0,
   "inWorldBarsRenderType": "COMBINED",
   "inWorldHudHealthFontStyle": "OUTLINED",

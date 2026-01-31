@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = pack_selection_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1769778824784
+  last_edited_time = 1769846180271
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:5dd859b9-a7d7-4e59-a56c-4949594492e4-1769778730185] = [groups:][instances:]
+  [loading_requirement_container_meta:cf219f7f-ca04-49c7-8bbb-9a1e60aead78-1769846162893] = [groups:][instances:]
 }
 
 customization {
@@ -34,7 +34,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Resource packs on this screen are draggable to be reordered%n%%n%The official monumenta music pack is not preinstalled by default but can be-%n%downloaded via the button above this one.%n%%n%"Homestead" is a resource pack by Noelle under ARR license, it and all edits present-%n%here may not be redistributed externally outside of personal interaction.%n%%n%"Homestead Fixes" is a updated version of Homestead to fix textures for new-%n%minecraft versions, it is unused by default in favor for coffee GUI.%n%%n%"Homestead edited" is a stripped down version mostly featuring hud elements I made-%n%to be used with coffee's container/other guis.%n%%n%"Deepas vanilla tweaks preset" is an opinionated selection of resource packs from-%n%vanillatweaks.net made to fit in with the rest of this modpacks base design,-%n%it can be easily edited on the website.
+  description = Resource packs on this screen are draggable to be reordered!%n%%n%The official monumenta music pack is not preinstalled by default but can be%n%    downloaded via the button above this one.%n%%n%"Homestead GUI" is a resource pack to change guis and the hud to be more fantasy themed.%n%    It is outdated and will mostly not work, it is installed from modrinth for licensing reasons.%n%    The pack is by Noelle under ARR license, it and all edits present by Deepa%n%    here may not be redistributed externally (e.g. in a fork of this modpack),%n%    outside of personal interaction.%n%%n%"Deepas fixed Homestead" is a copy of Homestead GUI, fixing the textures for 1.20.4.%n%%n%"Deepas fixed Homestead hud" is just the fixed hud elements seperated, as I prefer the hud%n%    but not the rest of the gui textures from the resourcepack.%n%%n%"Coffee GUI" Is a GUI resourcepack that is enabled by default along with my Homestead fixed hud.%n%%n%"Deepas vanilla tweaks preset" is an opinionated selection of resource packs from%n%    vanillatweaks made to fit in with the rest of this modpacks base design,%n%    it can be easily edited on the website vanillatweaks.net if you find issue.
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = 2fbfaea1-b5ec-48f3-8830-1c8d0824a217-1769775735079
@@ -54,9 +54,9 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9f5fd4ea-a355-415f-90dc-df634b697f71-1769776301464
-  x = 9
+  x = 0
   y = 23
-  width = 57
+  width = 74
   height = 30
   stretch_x = false
   stretch_y = false
@@ -124,7 +124,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Clicking opens link for the official music pack download%n%%n%Drag the zip file into resource pack folder once finished%n%%n%It is not preinstalled due to larger file size
+  description = Clicking this button opens the link to download the official Monumenta music pack%n%%n%It is not preinstalled due to larger file size%n%%n%Drag the zip file into resource pack folder once finished,%n%    then apply at the top of your resourcepack order ingame.%n%%n%
   label = Music Pack
   navigatable = true
   widget_active_state_requirement_container_identifier = 5f46e319-346b-4511-af82-2e5a7a840dbb-1769776301464
@@ -162,7 +162,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Default order:%n%1. Deepas Homestead Edited%n%2. Monumenta RP%n%3. Coffee JEI Addon%n%4. Coffee GUI%n%5. Deepas vanilla tweaks preset%n%6. Fabric mod resources%n%7. Vanilla Resources
+  description = Default order:%n%1. Monumenta Official Music Pack%n%2. Deepas fixed Homestead gui%n%3. Monumenta RP%n%4. Coffee GUI%n%5. Deepas vanilla tweaks preset%n%6. Fabric mod resources%n%7. Vanilla Resources
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = 2fbfaea1-b5ec-48f3-8830-1c8d0824a217-1769775735079
@@ -182,9 +182,9 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9f5fd4ea-a355-415f-90dc-df634b697f71-1769776301464
-  x = 9
+  x = 0
   y = 56
-  width = 57
+  width = 74
   height = 30
   stretch_x = false
   stretch_y = false
@@ -285,6 +285,47 @@ vanilla_button {
 }
 
 vanilla_button {
+  button_element_executable_block_identifier = 3b453f9d-0683-404f-859c-71aa508a1986-1769775497280
+  [executable_block:3b453f9d-0683-404f-859c-71aa508a1986-1769775497280][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = ab7797ec-183d-41a0-b811-749f42d008cc-1769775497280
+  [loading_requirement_container_meta:ab7797ec-183d-41a0-b811-749f42d008cc-1769775497280] = [groups:][instances:]
+  element_type = vanilla_button
+  instance_identifier = 504952
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1860
+  auto_sizing_base_screen_height = 1059
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 314
+  y = 305
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e8049460-f5f7-4ce0-9f3c-a5f6e8a71651-1769775497280
+  [loading_requirement_container_meta:e8049460-f5f7-4ce0-9f3c-a5f6e8a71651-1769775497280] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
   button_element_executable_block_identifier = 71019bff-c94a-40ab-b6c9-f7cdbabbbb47-1769775497280
   [executable_block:71019bff-c94a-40ab-b6c9-f7cdbabbbb47-1769775497280][type:generic] = [executables:]
   restartbackgroundanimations = true
@@ -318,47 +359,6 @@ vanilla_button {
   stay_on_screen = true
   element_loading_requirement_container_identifier = e32e4398-f937-498d-a3b9-174ef3e85595-1769775497280
   [loading_requirement_container_meta:e32e4398-f937-498d-a3b9-174ef3e85595-1769775497280] = [groups:][instances:]
-  is_hidden = false
-  automated_button_clicks = 0
-  nine_slice_slider_handle = false
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
-}
-
-vanilla_button {
-  button_element_executable_block_identifier = 3b453f9d-0683-404f-859c-71aa508a1986-1769775497280
-  [executable_block:3b453f9d-0683-404f-859c-71aa508a1986-1769775497280][type:generic] = [executables:]
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  navigatable = true
-  widget_active_state_requirement_container_identifier = ab7797ec-183d-41a0-b811-749f42d008cc-1769775497280
-  [loading_requirement_container_meta:ab7797ec-183d-41a0-b811-749f42d008cc-1769775497280] = [groups:][instances:]
-  element_type = vanilla_button
-  instance_identifier = 504952
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
-  fade_in_speed = 1.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
-  sticky_anchor = false
-  anchor_point = vanilla
-  x = 314
-  y = 305
-  width = 150
-  height = 20
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = e8049460-f5f7-4ce0-9f3c-a5f6e8a71651-1769775497280
-  [loading_requirement_container_meta:e8049460-f5f7-4ce0-9f3c-a5f6e8a71651-1769775497280] = [groups:][instances:]
   is_hidden = false
   automated_button_clicks = 0
   nine_slice_slider_handle = false
