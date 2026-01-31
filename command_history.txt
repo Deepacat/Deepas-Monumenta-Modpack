@@ -1,0 +1,21 @@
+/pc
+/vzc
+/effect give @s minecraft:hunger 10 10 true
+/effect give @s minecraft:hunger 10 100 true
+/effect clear
+/effect give @s minecraft:absorption infinite 100
+/effect clear
+/effect give @s minecraft:absorption infinite 2
+/effect give @s minecraft:hunger 10 100 true
+/effect give @s minecraft:absorption infinite 2
+/help rp
+/pibf
+/ping
+/gc
+/g
+/lfg
+/r
+/gc
+/g
+/gc
+/rj

@@ -1,0 +1,68 @@
+{
+  "hud_enabled": true,
+  "hud_statusBarsEnabled": true,
+  "hud_regenerationSpeed": 10.0,
+  "hud_healthText": true,
+  "hud_healthTextOffset": -5,
+  "hud_absorptionMaxBars": 5,
+  "hud_absorptionBarsOffset": -3,
+  "hud_absorptionStart": "HEALTH_END",
+  "hud_healthMirror": false,
+  "hud_hungerMirror": false,
+  "hud_breathMirror": true,
+  "hud_hideBreathWithWaterBreathing": false,
+  "hud_mountHealthEnabled": true,
+  "hud_mountHealthText": true,
+  "hud_mountHealthTextOffset": -5,
+  "hud_mountHealthMirror": false,
+  "hud_moveOverlayMessage": true,
+  "hud_moveHeldItemTooltip": true,
+  "hud_healthBarPosition": {
+    "offsetXRelative": 0.5,
+    "offsetYRelative": 1.0,
+    "offsetXAbsolute": 0,
+    "offsetYAbsolute": -34,
+    "alignX": 0.5,
+    "alignY": 1.0
+  },
+  "hud_hungerBarPosition": {
+    "offsetXRelative": 0.5,
+    "offsetYRelative": 1.0,
+    "offsetXAbsolute": 59,
+    "offsetYAbsolute": -21,
+    "alignX": 0.5,
+    "alignY": 1.0
+  },
+  "hud_breathBarPosition": {
+    "offsetXRelative": 0.5,
+    "offsetYRelative": 1.0,
+    "offsetXAbsolute": -60,
+    "offsetYAbsolute": -23,
+    "alignX": 0.5,
+    "alignY": 1.0
+  },
+  "hud_mountHealthBarPosition": {
+    "offsetXRelative": 0.5,
+    "offsetYRelative": 1.0,
+    "offsetXAbsolute": 60,
+    "offsetYAbsolute": -55,
+    "alignX": 0.5,
+    "alignY": 1.0
+  },
+  "hud_overlayMessagePosition": {
+    "offsetXRelative": 0.5,
+    "offsetYRelative": 0.67,
+    "offsetXAbsolute": 0,
+    "offsetYAbsolute": 0,
+    "alignX": 0.5,
+    "alignY": 1.0
+  },
+  "hud_heldItemTooltipPosition": {
+    "offsetXRelative": 0.5,
+    "offsetYRelative": 1.0,
+    "offsetXAbsolute": 0,
+    "offsetYAbsolute": -65,
+    "alignX": 0.5,
+    "alignY": 1.0
+  }
+}

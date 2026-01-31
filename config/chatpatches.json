@@ -1,0 +1,7 @@
+{
+  "time": false,
+  "boundary": false,
+  "chatlog": false,
+  "name": false,
+  "chatMaxMessages": 32767
+}
