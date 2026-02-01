@@ -16,7 +16,7 @@ showSubtitles:false
 directionalAudio:false
 touchscreen:false
 fullscreen:false
-bobView:false
+bobView:true
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
@@ -32,7 +32,7 @@ glintStrength:0.0
 damageTiltStrength:0.1586856986916116
 highContrast:false
 narratorHotkey:false
-gamma:2.0000000000000013
+gamma:12.0
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
@@ -44,8 +44,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/Deepas vanilla tweaks.zip","file/CoffeeGUI_1.21.10_release_v2.0.2.zip","file/MonumentaRP_v5.10.0.zip","file/Deepas fixed Homestead hud.zip"]
-incompatibleResourcePacks:["appleskin","attributefix","betteradvancements","configured","controlling","draggable_lists","drippyloadingscreen","effecttimerplus","entity_model_features","entity_texture_features","extremesoundmuffler","fancymenu","konkrete","modernfix","searchables","spark","tslatentitystatus","xaerominimapfair","xaeroworldmap","xaerozoomout","yet_another_config_lib_v3"]
+resourcePacks:["vanilla","fabric","file/Deepas vanilla tweaks.zip","file/CoffeeGUI_1.21.10_release_v2.0.2.zip","file/MonumentaRP_v5.10.0.zip","file/Deepas fixed Homestead hud","file/MonumentaMusicPack.zip","file/monudeep.zip"]
+incompatibleResourcePacks:["appleskin","attributefix","betteradvancements","configured","controlling","draggable_lists","drippyloadingscreen","entity_model_features","entity_texture_features","extremesoundmuffler","fancymenu","konkrete","modernfix","searchables","spark","xaerominimapfair","xaeroworldmap","xaerozoomout","yet_another_config_lib_v3"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -146,13 +146,18 @@ key_key.entityculling.toggle:key.keyboard.unknown
 key_key.open_muffler_gui:key.keyboard.unknown
 key_Dismount:key.keyboard.unknown
 key_Toggle player glowing:key.keyboard.g
+key_Toggle text display:key.keyboard.unknown
+key_Toggle health glowing:key.keyboard.unknown
+key_Whitelist edit activator:key.mouse.5
+key_Toggle text whitelist:key.keyboard.unknown
+key_Toggle glow whitelist:key.keyboard.keypad.9
 key_keymap.keyOpenKeymap:key.keyboard.f4
 key_key.mma.meow:key.keyboard.unknown
 key_key.mma.playerstats:key.mouse.middle
 key_key.mma.togglePlayerHpIndicator:key.keyboard.unknown
 key_key.mma.cz_copy_stats:key.keyboard.unknown
-key_key.mma.toggleChestWaypointRecording:key.keyboard.unknown
-key_key.mma.toggleChestWaypoint:key.keyboard.unknown
+key_key.mma.toggleChestWaypointRecording:key.keyboard.keypad.7
+key_key.mma.toggleChestWaypoint:key.keyboard.keypad.8
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_njols-ui-framework.key.editHud:key.keyboard.unknown
 key_unofficial-monumenta-mod.keybinds.toggleCalculator:key.keyboard.unknown
@@ -186,10 +191,6 @@ key_gui.xaero_quick_confirm:key.keyboard.unknown
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.zoom.secondary:key.keyboard.f6
-key_iris.keybind.reload:key.keyboard.unknown
-key_iris.keybind.toggleShaders:key.keyboard.unknown
-key_iris.keybind.shaderPackSelection:key.keyboard.unknown
-key_iris.keybind.wireframe:key.keyboard.unknown
 soundCategory_master:0.8049636795243763
 soundCategory_music:0.0
 soundCategory_record:0.3028169014084507

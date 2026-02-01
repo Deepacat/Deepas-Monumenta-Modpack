@@ -24,5 +24,5 @@
     "brightBlight": true,
     "potionInfo": "Clucking",
     "cleanLogs": false,
-    "generateTextures": true
+    "generateTextures": false
 }

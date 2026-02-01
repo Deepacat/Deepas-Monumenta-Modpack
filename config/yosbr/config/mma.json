@@ -2,7 +2,7 @@
   "features": {
     "enableHpIndicators": true,
     "enableTimerAndStats": true,
-    "enableVanillaEffectInUMMHud": false,
+    "enableVanillaEffectInUMMHud": true,
     "enableVanityDurability": true,
     "enableCustomSplash": false,
     "inventoryOverlay": {

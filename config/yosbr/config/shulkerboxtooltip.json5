@@ -59,7 +59,7 @@
 		   NONE: No tooltip
 		   (default value: MOD)
 		*/
-		"type": "NONE",
+		"type": "VANILLA",
 		/* Shows info about the current loot table of the item if present.
 		   Visible only when Tooltip Type is set to Modded.
 		   HIDE: No loot table info, default.

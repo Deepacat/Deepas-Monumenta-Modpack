@@ -859,45 +859,6 @@
             ]
         },
         {
-            "pakku_id": "wmNisgt90OirrYQj",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "effecttimerplus"
-            },
-            "name": {
-                "modrinth": "Effect Timer Plus"
-            },
-            "id": {
-                "modrinth": "JIUF2Wb5"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "EffectTimerPlus-Fabric-1.20.4-1.1.1.jar",
-                    "mc_versions": [
-                        "1.20.3",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/JIUF2Wb5/versions/8nY5IIv4/EffectTimerPlus-Fabric-1.20.4-1.1.1.jar",
-                    "id": "8nY5IIv4",
-                    "parent_id": "JIUF2Wb5",
-                    "hashes": {
-                        "sha512": "44bbfd15096b76e34ab0c2ff2e672efdaef89110bf68b73feca639b69b5e49e85bebd8333c9db056a6359118e87f4f5fdc93387db97199713b83262fad243513",
-                        "sha1": "20d9d1039fead31e8257305e19eccddcddc8a964"
-                    },
-                    "required_dependencies": [],
-                    "size": 56218,
-                    "date_published": "2024-03-20T03:40:04.444699Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "PszL5EC53vWUQxUf",
             "type": "MOD",
             "side": "CLIENT",
@@ -1626,47 +1587,6 @@
                     ],
                     "size": 105350,
                     "date_published": "2024-06-10T18:21:08.640568Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "cgp0uCtM9BoWkn5z",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "iris"
-            },
-            "name": {
-                "modrinth": "Iris Shaders"
-            },
-            "id": {
-                "modrinth": "YL57xq9U"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "iris-1.7.2+mc1.20.4.jar",
-                    "mc_versions": [
-                        "1.20.3",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/hq98tuSS/iris-1.7.2+mc1.20.4.jar",
-                    "id": "hq98tuSS",
-                    "parent_id": "YL57xq9U",
-                    "hashes": {
-                        "sha512": "3c2f88abfa60c7e46c720663511a4f2ac7c4b3f59ce9af8d0d5d2d48b109310aade0128c8e24313ee8ec46094659eac525eed7cecd6d4eb85c0822942b30cc0c",
-                        "sha1": "acc785418e034a265f99fdb341fbb3b5af3859c8"
-                    },
-                    "required_dependencies": [
-                        "AANobbMI"
-                    ],
-                    "size": 2703697,
-                    "date_published": "2024-06-29T14:30:35.758569Z"
                 }
             ]
         },
@@ -2942,48 +2862,6 @@
             ]
         },
         {
-            "pakku_id": "5idwVK0MZ93Gm1Em",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "status-effect-bars"
-            },
-            "name": {
-                "modrinth": "Status Effect Bars"
-            },
-            "id": {
-                "modrinth": "x02cBj9Y"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "status-effect-bars-1.0.4.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/x02cBj9Y/versions/i7dHnAbG/status-effect-bars-1.0.4.jar",
-                    "id": "i7dHnAbG",
-                    "parent_id": "x02cBj9Y",
-                    "hashes": {
-                        "sha512": "0e7a9e69581dacf9a4448c8ffac414cd8ec7917a2d25c36c29d9a11c688669e730b185a7de43db6846924dab43066c1618b42a59838e912ecfd69b334e7bd690",
-                        "sha1": "7d16c2a71a8cee71f8d68bb86f86483e19fbb72e"
-                    },
-                    "required_dependencies": [
-                        "9s6osm5g"
-                    ],
-                    "size": 43010,
-                    "date_published": "2023-09-23T10:56:02.122057Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "GwELVNo60LYNBB5z",
             "type": "MOD",
             "side": "BOTH",
@@ -3059,48 +2937,6 @@
                     ],
                     "size": 144229,
                     "date_published": "2023-12-12T18:20:08.992002Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "v62zgKvFcgFWxSqB",
-            "pakku_links": [
-                "OwYrt8LksAKNIvuH"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "tslatentitystatus"
-            },
-            "name": {
-                "modrinth": "TslatEntityStatus"
-            },
-            "id": {
-                "modrinth": "4A86JsDZ"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "TES-fabric-1.20.4-1.5.1.jar",
-                    "mc_versions": [
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/4A86JsDZ/versions/dpNAttAb/TES-fabric-1.20.4-1.5.1.jar",
-                    "id": "dpNAttAb",
-                    "parent_id": "4A86JsDZ",
-                    "hashes": {
-                        "sha512": "0d16105ad14c9cb6192281785fcf5b8590428adf14f91995f903173c05cf0e72876699f5fddc86d163aa8d9025ccf27599c5d6748476cbaeffe7fabe108a704e",
-                        "sha1": "91644a9eb9d19a398c3a1eff42d282687a9e4dc8"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 183236,
-                    "date_published": "2024-04-18T09:12:55.320119Z"
                 }
             ]
         },
@@ -3597,47 +3433,6 @@
                     "required_dependencies": [],
                     "size": 737470,
                     "date_published": "2025-12-29T13:32:14.410590Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "gMIOf9uZhxEpEFhJ",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "owo-lib"
-            },
-            "name": {
-                "modrinth": "oωo (owo-lib)"
-            },
-            "id": {
-                "modrinth": "ccKDOlHs"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "owo-lib-0.12.6+1.20.3.jar",
-                    "mc_versions": [
-                        "1.20.3",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/Her7Z3CG/owo-lib-0.12.6+1.20.3.jar",
-                    "id": "Her7Z3CG",
-                    "parent_id": "ccKDOlHs",
-                    "hashes": {
-                        "sha512": "e47b9367ff84435c7043c21c58720c1e7049766dedaa305c6380a8cc6bab4f8ae49d781ecea533e00ebad9ba278372bc4cb8dd8d6eea7fd79244628aeba74e13",
-                        "sha1": "abf097faf0fc485dcd8566a120a8de254d417d5b"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 1080159,
-                    "date_published": "2024-04-03T22:39:30.075133Z"
                 }
             ]
         },
