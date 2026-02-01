@@ -1136,47 +1136,6 @@
             ]
         },
         {
-            "pakku_id": "tWuA4Y8i58ihkeii",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "fancy-toasts"
-            },
-            "name": {
-                "modrinth": "Fancy Toasts | Better Advancements"
-            },
-            "id": {
-                "modrinth": "eUziWqPC"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "fancytoasts-1.20.2-1.20.6-1.3.2.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.4",
-                        "1.20.5",
-                        "1.20.6"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/eUziWqPC/versions/QFifKsDC/fancytoasts-1.20.2-1.20.6-1.3.2.jar",
-                    "id": "QFifKsDC",
-                    "parent_id": "eUziWqPC",
-                    "hashes": {
-                        "sha512": "ce678e71f361ae2a0bbf0b3159186849935b9bd0e60624c4f6f4968d5509a89f887d92c6e6e45aa4e46c7a37e3d9cec3802eb9533b2fc59db770f65afdb436fe",
-                        "sha1": "0bc39f566a14355054346d233687c7a1567ee6ba"
-                    },
-                    "required_dependencies": [],
-                    "size": 76330,
-                    "date_published": "2025-08-13T21:58:42.761662Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "hBX5R44UkOIrjpBa",
             "pakku_links": [
                 "VqjkNmlYgYuf2Tvv",
