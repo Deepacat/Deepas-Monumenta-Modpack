@@ -37,7 +37,7 @@
 				"modifier": 0
 			},
 			"favoriteKeybind": {
-				"keyCode": "key.keyboard.a",
+				"keyCode": "key.keyboard.f",
 				"modifier": 0
 			},
 			"exportImageKeybind": {
@@ -101,7 +101,7 @@
 			// Declares whether REI should append mod names to entries.
 			"appendModNames": false,
 			// Declares whether favorites tooltip should be displayed.
-			"displayFavoritesTooltip": false,
+			"displayFavoritesTooltip": true,
 			"displayIMEHints": true
 		},
 		"layout": {
