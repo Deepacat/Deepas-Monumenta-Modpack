@@ -59,8 +59,7 @@
   "abilitiesDisplay_alwaysShowAbilitiesWithCharges": false,
   "abilitiesDisplay_condenseOnlyOnCooldown": false,
   "abilitiesDisplay_showPassiveAbilities": false,
-  "abilitiesDisplay_order": [
-  ],
+  "abilitiesDisplay_order": [],
   "discordEnabled": true,
   "discordDetails": "{player} is in {shard}",
   "hideShardMode": false,

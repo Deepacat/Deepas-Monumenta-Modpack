@@ -40,7 +40,7 @@
 	"particleTextShadow": true,
 	"damageParticleTextColour": 16777215,
 	"healingParticleTextColour": 16777215,
-	"particleType": "STATIC",
+	"particleType": "RISING",
 	"maxParticleDistance": 8.0,
 	"topLayerTextType": "NONE",
 	"compatWorldBar": false,
