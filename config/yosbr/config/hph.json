@@ -21,7 +21,7 @@
     "effectPaddingSize": 52,
     "enableGlow": true,
     "glowOnFullHP": true,
-    "enableWhitelistGlow": true,
+    "enableWhitelistGlow": false,
     "overrideGrossHacksGlowing": true,
     "hp100Colour": -11141291,
     "hp66Colour": -171,

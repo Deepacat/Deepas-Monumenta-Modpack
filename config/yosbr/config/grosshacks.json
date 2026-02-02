@@ -8,7 +8,7 @@
     "rangeMode": false,
     "range": 16,
     "hideHandheld": false,
-    "extraButtons": true,
+    "extraButtons": false,
     "dailiesButton": true,
     "withdrawMenu": false,
     "disableInteractions": false,
