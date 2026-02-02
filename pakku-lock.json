@@ -1851,46 +1851,6 @@
             ]
         },
         {
-            "pakku_id": "xzI8YatOpTV99VnT",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "madcats-hitboxes"
-            },
-            "name": {
-                "modrinth": "MadCat's Hitboxes"
-            },
-            "id": {
-                "modrinth": "lBtR1WBk"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "madcats-hitboxes-1.2.0+1.20.4.jar",
-                    "mc_versions": [
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/lBtR1WBk/versions/VCAws8Ru/madcats-hitboxes-1.2.0+1.20.4.jar",
-                    "id": "VCAws8Ru",
-                    "parent_id": "lBtR1WBk",
-                    "hashes": {
-                        "sha512": "8669f7e2a3e8929ef5e09a2ce66f6c2f50e715b62e20a0b1f6f4eee4ff5da39aeab2aa9dcc02a6f4530fdc1a99e39ea6802a9e97dda49e7b46f91f4b61633d0f",
-                        "sha1": "4fbc0af64c9da265e8035e208af0a18317faa0f8"
-                    },
-                    "required_dependencies": [
-                        "9s6osm5g",
-                        "1eAoo2KR"
-                    ],
-                    "size": 71160,
-                    "date_published": "2025-05-13T13:37:18.328377Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "rySP7OaV7yqz0Hnw",
             "pakku_links": [
                 "OwYrt8LksAKNIvuH"
