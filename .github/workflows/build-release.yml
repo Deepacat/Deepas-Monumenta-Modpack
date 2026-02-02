@@ -64,7 +64,7 @@ jobs:
         id: latest_tag
         shell: bash
         run: |
-          tag=$(git describe --tags --abbrev=0 origin/main)
+          tag=$(git describe --tags --abbrev=0 origin/lite-release)
           if [ -z "$tag" ]; then
             echo "Latest tag not found, likely the first time this script has been ran. " && exit 1
           else
@@ -280,7 +280,7 @@ jobs:
                 repo: context.repo.repo,
                 state: 'open',
                 head: `${context.repo.owner}:dev`,
-                base: 'main'
+                base: 'lite-release'
               });
 
               core.setOutput('exists', prs.length > 0);
@@ -295,14 +295,14 @@ jobs:
         uses: devops-infra/action-pull-request@v0.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_branch: dev
-          target_branch: main
+          source_branch: lite-dev
+          target_branch: lite-release
           #milestone: ${{ steps.changelog.outputs.version }} # Change this! (if you plan on using milestones)
           ignore_users: "dependabot"
           draft: true
           title: "Release: ${{ steps.changelog.outputs.version }}"
           body: |
-            **This is an automated Pull Request from the dev branch.**
+            **This is an automated Pull Request from the lite-dev branch.**
             **Name**: ${{ needs.info.outputs.project_name }}
             **Release**:  `${{ steps.changelog.outputs.version }}`
             **Release Type**: `${{ needs.info.outputs.release_type }}`
