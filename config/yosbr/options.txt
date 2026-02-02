@@ -101,7 +101,7 @@ key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
-key_key.socialInteractions:key.keyboard.p
+key_key.socialInteractions:key.keyboard.unknown
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
 key_key.smoothCamera:key.keyboard.unknown
@@ -156,8 +156,8 @@ key_key.mma.meow:key.keyboard.unknown
 key_key.mma.playerstats:key.mouse.middle
 key_key.mma.togglePlayerHpIndicator:key.keyboard.unknown
 key_key.mma.cz_copy_stats:key.keyboard.unknown
-key_key.mma.toggleChestWaypointRecording:key.keyboard.minus
-key_key.mma.toggleChestWaypoint:key.keyboard.0
+key_key.mma.toggleChestWaypointRecording:key.keyboard.p
+key_key.mma.toggleChestWaypoint:key.keyboard.o
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_njols-ui-framework.key.editHud:key.keyboard.unknown
 key_unofficial-monumenta-mod.keybinds.toggleCalculator:key.keyboard.unknown
@@ -171,8 +171,8 @@ key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_enlarge_map:key.keyboard.unknown
 key_gui.xaero_waypoints_key:key.keyboard.n
-key_gui.xaero_zoom_in:key.keyboard.unknown
-key_gui.xaero_zoom_out:key.keyboard.unknown
+key_gui.xaero_zoom_in:key.keyboard.equal
+key_gui.xaero_zoom_out:key.keyboard.minus
 key_gui.xaero_new_waypoint:key.keyboard.b
 key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
