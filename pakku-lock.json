@@ -544,6 +544,49 @@
             ]
         },
         {
+            "pakku_id": "ZsKPAKtL6uar0nMd",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "crosshairtweaks"
+            },
+            "name": {
+                "modrinth": "Crosshair Tweaks"
+            },
+            "id": {
+                "modrinth": "uv6GyJOZ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "crosshairtweaks-1.2.2+1.20.4-fabric.jar",
+                    "mc_versions": [
+                        "1.20.3",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/xCgg1bSb/crosshairtweaks-1.2.2+1.20.4-fabric.jar",
+                    "id": "xCgg1bSb",
+                    "parent_id": "uv6GyJOZ",
+                    "hashes": {
+                        "sha512": "e16082c2e245913d7e236ef8059c9a62fad00335209f4fa1665bd6306c793d76ef306894c7554132a2a4f38beeedd3f4cac5aa992420ef7c5ddcdd2725032779",
+                        "sha1": "ac71fed4e2a4a994f87820154a5d19d1183031bf"
+                    },
+                    "required_dependencies": [
+                        "mOgUt4GM",
+                        "P7dR8mSH",
+                        "1eAoo2KR"
+                    ],
+                    "size": 123844,
+                    "date_published": "2024-10-17T01:30:09.702056Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "p98XmgPFWahs3YKU",
             "type": "RESOURCE_PACK",
             "side": "CLIENT",

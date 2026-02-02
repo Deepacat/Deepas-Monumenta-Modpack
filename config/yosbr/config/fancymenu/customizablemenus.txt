@@ -6,9 +6,6 @@ de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 net.minecraft.class_442 {
 }
 
-net.minecraft.class_458 {
-}
-
 net.minecraft.class_429 {
 }
 
@@ -16,5 +13,8 @@ net.minecraft.class_5375 {
 }
 
 net.minecraft.class_490 {
+}
+
+net.minecraft.class_458 {
 }
 
