@@ -174,14 +174,14 @@ jobs:
         with:
           path: CHANGELOG.md
           version: "unreleased"
-        continue-on-error: false
+        continue-on-error: true
 
       - name: Changelog Parser
         id: changelog
         uses: coditory/changelog-parser@v1.0.2
         with:
           path: CHANGELOG.md
-        continue-on-error: false
+        continue-on-error: true
 
       - name: Check if tag exists
         uses: mukunku/tag-exists-action@v1.6.0
