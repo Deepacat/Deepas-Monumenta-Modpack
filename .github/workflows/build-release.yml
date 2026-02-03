@@ -464,7 +464,7 @@ jobs:
           name: ${{ needs.info.outputs.project_full_name }}
           version: ${{ needs.info.outputs.project_version }}
           changelog: ${{ needs.info.outputs.changelog }}
-          loaders: ${{ steps.check.outputs.loader_type }}
+          loaders: ${{ needs.info.outputs.loader_type }}
           game-versions: ${{ needs.info.outputs.mc_version }}
           files: ${{ needs.info.outputs.project_file_name }}-modrinth.mrpack
 
