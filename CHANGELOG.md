@@ -3,6 +3,6 @@
 ### Changes
 - Initial release
 
-## [1.0.0a]
+## [0.0.1]
 ### Changes
-Placeholder tag
+Placeholder
