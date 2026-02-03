@@ -443,19 +443,33 @@ jobs:
           fi
           echo "All artifacts found"
 
-      - name: Upload Modrinth
-        id: release
-        uses: Xikaro/upload-curseforge-modpack-action@1.1.1
-        with:
-          api-token: ${{ secrets.MODRINTH_TOKEN }}
-          project-id: ${{ vars.MODRINTH_ID }}
-          modpack-path: ${{ needs.info.outputs.project_file_name }}-modrinth.mrpack
-          changelog: ${{ needs.info.outputs.changelog }}
-          changelog-format: markdown
-          game-version: ${{ needs.info.outputs.mc_version }}
-          display-name: ${{ needs.info.outputs.project_full_name }}
+      # - name: Upload Modrinth
+      #   id: release
+      #   uses: Xikaro/upload-curseforge-modpack-action@1.1.1
+      #   with:
+      #     api-token: ${{ secrets.MODRINTH_TOKEN }}
+      #     project-id: ${{ vars.MODRINTH_ID }}
+      #     modpack-path: ${{ needs.info.outputs.project_file_name }}-modrinth.mrpack
+      #     changelog: ${{ needs.info.outputs.changelog }}
+      #     changelog-format: markdown
+      #     game-version: ${{ needs.info.outputs.mc_version }}
+      #     display-name: ${{ needs.info.outputs.project_full_name }}
+      #     release-type: ${{ needs.info.outputs.release_type }}
 
-          release-type: ${{ needs.info.outputs.release_type }}
+      - name: Upload To Modrinth
+        id: release
+        uses: cloudnode-pro/modrinth-publish@v2
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: ${{ vars.MODRINTH_ID }}
+          version: ${{ needs.info.outputs.project_version }}
+          loaders: ${{ steps.check.outputs.loader_type }}
+          game-versions: ${{ needs.info.outputs.mc_version }}
+          # files: target/Project-1.2.3.jar
+          files: ${{ needs.info.outputs.project_file_name }}-modrinth.mrpack
+          name: ${{ needs.info.outputs.project_full_name }}
+          channel: ${{ needs.info.outputs.release_type }}
+
 
   discord-message:
     name: Discord Message
