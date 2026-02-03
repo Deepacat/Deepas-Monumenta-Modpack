@@ -457,19 +457,16 @@ jobs:
       #     release-type: ${{ needs.info.outputs.release_type }}
 
       - name: Upload To Modrinth
-        id: release
         uses: cloudnode-pro/modrinth-publish@v2
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: ${{ vars.MODRINTH_ID }}
+          name: ${{ needs.info.outputs.project_full_name }}
           version: ${{ needs.info.outputs.project_version }}
+          changelog: ${{ needs.info.outputs.changelog }}
           loaders: ${{ steps.check.outputs.loader_type }}
           game-versions: ${{ needs.info.outputs.mc_version }}
-          # files: target/Project-1.2.3.jar
           files: ${{ needs.info.outputs.project_file_name }}-modrinth.mrpack
-          name: ${{ needs.info.outputs.project_full_name }}
-          channel: ${{ needs.info.outputs.release_type }}
-
 
   discord-message:
     name: Discord Message
