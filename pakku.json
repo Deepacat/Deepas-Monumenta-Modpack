@@ -1,6 +1,7 @@
 {
-    "name": "Deepas Monumenta Pack",
-    "version": "1.0.0-Lite",
+    "name": "Deepas-Monumenta-Pack",
+    "version": "DEV",
+    "release_type": "release",
     "description": "Polished modpack for the Monumenta server",
     "author": "Deepacat",
     "overrides": [
