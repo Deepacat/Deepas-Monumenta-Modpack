@@ -14,11 +14,23 @@ The lite version of this modpack is more immersion and new player focused, givin
 
 This pack would also serve as a nice base to edit, adding and removing resourcepacks, mods, configuring, or whatever else you'd like to do with it!
 
-Join my devlopment discord for help or any questions!
+**Recommended ingame settings (ingame `/player settings`)**
+- Gameplay/Combat Options
+  - Ability hotbar > disabled
+  - Inventory drink > enabled
+- Technical Options
+  - Spoof world names > enabled
+  - Auto Abandon completed dungeons > disabled
+- Trigger/Interactable Options
+  - Block interactions > disabled (Prevents accidental ability casts with scythes, and opening unwanted interfaces in combat)
+  - Offhand swapping > disabled
+  - Offhand swapping in inventory > disabled (Both offhand keys can be annoying and cause accidental swaps, safer to swap offhand with mouse clicks)
+
+Join my development discord for help or any questions!
 https://discord.gg/g99A6SnpDW
 
 **Thanks to**
 
-- [Vladomeme](https://github.com/Vladomeme) for external mods and forks of mods (hph, grosshacks, woo)
-- Noelle for the [Homestead GUI resourcepack](https://modrinth.com/resourcepack/homestead-gui), of which I have included the original file and my own edits + fixes to it.
-- [Monumenta](https://playmonumenta.com/) for being an amazing MMORPG Minecraft Server
+- Vladomeme for external mods and forks of mods (hph, grosshacks, woo)
+- Noelle for the Homestead resourcepack, of which I have included the original file and my own edits + fixes to it.
+- Monumenta for being an amazing MMORPG Minecraft Server
