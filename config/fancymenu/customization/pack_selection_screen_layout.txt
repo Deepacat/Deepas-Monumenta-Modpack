@@ -382,18 +382,18 @@ element {
 }
 
 vanilla_button {
-  button_element_executable_block_identifier = 43314152-a626-4c85-b6da-e5ad3a8c3cd4-1769775497280
-  [executable_block:43314152-a626-4c85-b6da-e5ad3a8c3cd4-1769775497280][type:generic] = [executables:]
+  button_element_executable_block_identifier = 71019bff-c94a-40ab-b6c9-f7cdbabbbb47-1769775497280
+  [executable_block:71019bff-c94a-40ab-b6c9-f7cdbabbbb47-1769775497280][type:generic] = [executables:]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
   navigatable = true
-  widget_active_state_requirement_container_identifier = c0df67e1-e8ec-4c02-8f35-41a35a354bd1-1769775497280
-  [loading_requirement_container_meta:c0df67e1-e8ec-4c02-8f35-41a35a354bd1-1769775497280] = [groups:][instances:]
+  widget_active_state_requirement_container_identifier = 5312f3f2-a483-4d4b-9c18-cc8dc90651e1-1769775497280
+  [loading_requirement_container_meta:5312f3f2-a483-4d4b-9c18-cc8dc90651e1-1769775497280] = [groups:][instances:]
   element_type = vanilla_button
-  instance_identifier = 346952
+  instance_identifier = 662952
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
@@ -406,15 +406,15 @@ vanilla_button {
   auto_sizing_base_screen_height = 0
   sticky_anchor = false
   anchor_point = vanilla
-  x = 156
+  x = 472
   y = 305
-  width = 150
+  width = 24
   height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = 4416478d-1d8f-4abb-816e-2eace141cfb6-1769775497280
-  [loading_requirement_container_meta:4416478d-1d8f-4abb-816e-2eace141cfb6-1769775497280] = [groups:][instances:]
+  element_loading_requirement_container_identifier = e32e4398-f937-498d-a3b9-174ef3e85595-1769775497280
+  [loading_requirement_container_meta:e32e4398-f937-498d-a3b9-174ef3e85595-1769775497280] = [groups:][instances:]
   is_hidden = false
   automated_button_clicks = 0
   nine_slice_slider_handle = false
