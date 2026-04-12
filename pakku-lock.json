@@ -2097,7 +2097,7 @@
             ]
         },
         {
-            "pakku_id": "j46wntjv3NxlaemB",
+            "pakku_id": "dSY8Tcl0L1fuT7bX",
             "type": "RESOURCE_PACK",
             "side": "CLIENT",
             "slug": {
@@ -2112,7 +2112,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "MonumentaRP_v5.10.0.zip",
+                    "file_name": "MonumentaRP_v5.11.0.zip",
                     "mc_versions": [
                         "1.20.4"
                     ],
@@ -2120,16 +2120,16 @@
                         "minecraft"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Yj53Rs56/versions/14w5QnxG/MonumentaRP_v5.10.0.zip",
-                    "id": "14w5QnxG",
+                    "url": "https://cdn.modrinth.com/data/Yj53Rs56/versions/J29N7atm/MonumentaRP_v5.11.0.zip",
+                    "id": "J29N7atm",
                     "parent_id": "Yj53Rs56",
                     "hashes": {
-                        "sha512": "1ae2955d52a91fdd7d35742daedf8f23631dc11290d19e91e785c7a23ee9e4b8ca175c076ef97bdfe9e17e8fc8706c976ef85e720382c30ca151b6bf933fabb9",
-                        "sha1": "03cb2bf4caaa60ed85086332290867ea66801eda"
+                        "sha512": "0228350ee00bf6f3d1317622a2fe572195bd8935cdc84878a8b8daf9047f93a43b0a3f679138dbcf1c041b04d0a6ff0c5aaa9c95e74172a747503f72fd583a6b",
+                        "sha1": "e129cea6c876cf7f3e0195f5b8587ab4a7332ab5"
                     },
                     "required_dependencies": [],
-                    "size": 16567424,
-                    "date_published": "2025-12-17T22:18:17.932619Z"
+                    "size": 16602961,
+                    "date_published": "2026-02-15T19:32:55.223685Z"
                 }
             ]
         },

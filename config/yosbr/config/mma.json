@@ -5,6 +5,27 @@
     "enableVanillaEffectInUMMHud": true,
     "enableVanityDurability": true,
     "enableCustomSplash": false,
+    "viewModel": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 0,
+      "rotZ": 0,
+      "scale": 1.0,
+      "offPosX": 0,
+      "offPosY": 0,
+      "offPosZ": 0,
+      "offRotX": 0,
+      "offRotY": 0,
+      "offRotZ": 0,
+      "offScale": 1.0,
+      "cancelReEquip": false,
+      "rotationlessDrink": false,
+      "hideEmptyHand": false,
+      "removeSwing": false,
+      "swingSpeed": 1.0
+    },
     "inventoryOverlay": {
       "enable": true,
       "enableRarity": false,
@@ -30,16 +51,7 @@
     "contractCheck": false,
     "contractCheckText": "Switch your contract",
     "contractThreshold": 40,
-    "czContractThreshold": 50,
-    "waypoint": {
-      "enable": false,
-      "recordChests": true,
-      "disableInPlots": true,
-      "skipBrokenChests": false,
-      "color": 65280,
-      "radius": 128,
-      "disabledWorlds": []
-    }
+    "czContractThreshold": 50
   },
   "appearance": {
     "bracketColor": 12041720,

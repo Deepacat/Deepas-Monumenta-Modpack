@@ -5,6 +5,7 @@
     "author": "Deepacat",
     "overrides": [
         "config/yosbr/",
+        "config/fancymenu/",
         "!resourcepacks"
     ],
     "server_overrides": [
