@@ -1,10 +1,14 @@
 {
     "name": "Deepas-Monumenta-Pack",
     "version": "DEV",
-    "release_type": "release",
     "description": "Polished modpack for the Monumenta server",
     "author": "Deepacat",
     "overrides": [
-        "config/yosbr/"
+        "config/yosbr/",
+        "config/fancymenu/",
+        "!resourcepacks"
+    ],
+    "server_overrides": [
+        "!*"
     ]
 }

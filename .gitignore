@@ -40,9 +40,12 @@
 /command_history.txt
 
 ## Ignored Configs
-# Preset configs to be shipped with the modpack should be placed into yosbr
+# Most preset configs to be shipped with the modpack should be placed into yosbr
+# Configs that the player are not expected to edit should be unignored so they're replaced on updates
 /config/*
 !/config/yosbr/
+
+!/config/fancymenu
 
 ### Mostly stuff that shouldn't be tweaked below here
 
