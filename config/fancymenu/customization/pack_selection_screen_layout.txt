@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = pack_selection_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1785214527775
+  last_edited_time = 1785284274161
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:6c3d59c7-581d-45fc-9617-b1f2e7f74f62-1785214371454] = [groups:][instances:]
+  [loading_requirement_container_meta:0453b9cd-19b3-4eb0-ab80-3c495f4b21b0-1785284018368] = [groups:][instances:]
 }
 
 customization {
@@ -34,7 +34,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Resource packs on this screen are draggable to be reordered!%n%%n%The official monumenta music pack is not preinstalled by default but can be%n%    downloaded via the button above this one.%n%%n%"Homestead GUI" is a resource pack to change guis and the hud to be more fantasy themed.%n%    It is outdated and will mostly not work, it is installed from modrinth for licensing reasons.%n%    The pack is by Noelle under ARR license, it and all edits present by Deepa%n%    here may not be redistributed externally (e.g. in a fork of this modpack),%n%    outside of personal interaction.%n%%n%"Deepas fixed Homestead" is a copy of Homestead GUI, fixing the textures for 1.20.4.%n%%n%"Deepas fixed Homestead hud" is just the fixed hud elements seperated, as I prefer the hud%n%    but not the rest of the gui textures from the resourcepack.%n%%n%"Coffee GUI" Is a GUI resourcepack that is enabled by default along with my Homestead fixed hud.%n%%n%"Deepas vanilla tweaks preset" is an opinionated selection of resource packs from%n%    vanillatweaks made to fit in with the rest of this modpacks base design,%n%    it can be easily edited on the website vanillatweaks.net if you find issue.
+  description = Resource packs on this screen are draggable to be reordered!%n%%n%&l"Official Monumenta Music Pack"&r%n%    The "Official Monumenta Music Pack" is not preinstalled by default,%n%    but can be downloaded via the button above.%n%    %n%&l"Deepas fixed Homestead hud"&r%n%    is just the fixed HUD elements seperated, as I prefer the hud but not the rest of%n%    the GUI textures from the resourcepack like inventory and containers.%n%%n%&l"Coffee GUI"&r%n%    GUI resourcepack that is enabled by default along with my Homestead fixed hud.%n%%n%&l"Deepas vanilla tweaks preset"&r%n%    An opinionated selection of resource packs from%n%    vanillatweaks made to fit in with the rest of this modpacks base design,%n%    it can be easily edited on the website vanillatweaks.net if you find issue.
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = 2fbfaea1-b5ec-48f3-8830-1c8d0824a217-1769775735079
@@ -55,7 +55,7 @@ element {
   anchor_point = element
   anchor_point_element = 9f5fd4ea-a355-415f-90dc-df634b697f71-1769776301464
   x = 0
-  y = 72
+  y = 45
   width = 74
   height = 30
   stretch_x = false
@@ -105,8 +105,8 @@ element {
   anchor_point = element
   anchor_point_element = 9f5fd4ea-a355-415f-90dc-df634b697f71-1769776301464
   x = 10
-  y = 73
-  width = 55
+  y = 46
+  width = 62
   height = 28
   stretch_x = false
   stretch_y = false
@@ -182,7 +182,7 @@ element {
   anchor_point = element
   anchor_point_element = 9f5fd4ea-a355-415f-90dc-df634b697f71-1769776301464
   x = 0
-  y = 105
+  y = 126
   width = 74
   height = 30
   stretch_x = false
@@ -194,7 +194,7 @@ element {
 
 element {
   interactable = true
-  source = Default%n% Order
+  source =   Default %n%Pack Order
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -231,9 +231,9 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9f5fd4ea-a355-415f-90dc-df634b697f71-1769776301464
-  x = 15
-  y = 107
-  width = 41
+  x = 7
+  y = 128
+  width = 63
   height = 28
   stretch_x = false
   stretch_y = false
@@ -284,6 +284,95 @@ element {
   x = 8
   y = 4
   width = 61
+  height = 28
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 31003b8f-1110-40d3-aff4-9014ae3df7a6-1769775586112
+  [loading_requirement_container_meta:31003b8f-1110-40d3-aff4-9014ae3df7a6-1769775586112] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 421ef4c3-806d-460b-bce4-2e3851749015-1769775735079
+  [executable_block:421ef4c3-806d-460b-bce4-2e3851749015-1769775735079][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = &l"Deepas fixed Homestead GUI"&r%n%    A copy of Homestead GUI, with textures fixed for minecraft 1.20.4.%n%%n%&l"Homestead GUI"&r%n%    A resource pack to change guis and the hud to be more fantasy themed.%n%    It is outdated and will mostly not work, it is installed from modrinth for licensing reasons.%n%    The pack is by Noelle under ARR license, it and all edits present by Deepa%n%    here may not be redistributed externally (e.g. in a fork of this modpack),%n%    outside of personal interaction.
+  label = 
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 2fbfaea1-b5ec-48f3-8830-1c8d0824a217-1769775735079
+  [loading_requirement_container_meta:2fbfaea1-b5ec-48f3-8830-1c8d0824a217-1769775735079] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = e47fc1d2-8f87-4789-94f9-599563913f69-1785283963145
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1860
+  auto_sizing_base_screen_height = 1059
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = 9f5fd4ea-a355-415f-90dc-df634b697f71-1769776301464
+  x = 0
+  y = 85
+  width = 74
+  height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2e777663-f117-46c8-9926-21f9c8385e29-1769775735079
+  [loading_requirement_container_meta:2e777663-f117-46c8-9926-21f9c8385e29-1769775735079] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = Other Pack%n%    Info
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 9a2df70e-69f3-415e-9c84-7099fc76a515-1785283963146
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1860
+  auto_sizing_base_screen_height = 1059
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = 9f5fd4ea-a355-415f-90dc-df634b697f71-1769776301464
+  x = 6
+  y = 87
+  width = 68
   height = 28
   stretch_x = false
   stretch_y = false
