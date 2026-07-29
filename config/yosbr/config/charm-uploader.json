@@ -1,0 +1,11 @@
+{
+  "charm": {
+    "charm_report_enable": true
+  },
+  "web": {
+    "charm_server_address": "api.fallenforum.com"
+  },
+  "speedrun": {
+    "record_speedruns": true
+  }
+}

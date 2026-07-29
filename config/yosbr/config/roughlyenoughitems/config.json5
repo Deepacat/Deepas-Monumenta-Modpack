@@ -38,7 +38,7 @@
 			},
 			"favoriteKeybind": {
 				"keyCode": "key.keyboard.f",
-				"modifier": 0
+				"modifier": 1
 			},
 			"exportImageKeybind": {
 				"keyCode": "key.keyboard.f8",

@@ -1,0 +1,15 @@
+showCrosshair = true
+inverted = false
+square = false
+crosshairArmLength = 3
+crosshairDistance = 3
+showTimer = false
+redAfter = 50
+greenAfter = 205
+blueAfter = 50
+redBefore = 255
+greenBefore = 255
+blueBefore = 255
+playDing = true
+dingVolume = 0.7
+dingPitch = 0.4

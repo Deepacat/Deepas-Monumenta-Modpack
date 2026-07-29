@@ -67,7 +67,7 @@
   },
   "hpIndicator": {
     "enableGlowingPlayer": false,
-    "enableHitboxColoring": true,
+    "enableHitboxColoring": false,
     "countAbsorptionAsHp": false,
     "disableSelf": true,
     "disableInHycenea": true,

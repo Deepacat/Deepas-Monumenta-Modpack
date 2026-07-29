@@ -1,0 +1,214 @@
+
+[general]
+	"monumentum's_messages_color" = "255,192,192,192"
+
+[fixes]
+
+	[fixes.monumenta_enchantments]
+		multi-load_desync_fix = true
+
+[optimization]
+
+	[optimization.miscellaneous]
+		stop_spawner_block_entity_rendering = false
+		"hide_\"decorations\"_in_adventure_mode" = false
+
+[helpers]
+
+	[helpers.monumenta_enchantments]
+		excavator_helper = false
+		excavator_helper_highlight_color = "255,255,255,255"
+		multi-load_helper = false
+		x_position = 8
+		y_position = -20
+		x_anchor = 0.5
+		y_anchor = 0.5
+
+	[helpers.monumenta_items]
+		"worldshaper's_loom_highlight" = false
+
+	[helpers.abilities_circle]
+		abilities_circle = false
+		filter = "Mana Lance,Magma Shield,Arcane Strike,Thunder Step,Cosmic Moonblade,Frost Nova"
+		render_behavior = 1
+		"show_abilities'_max_charges" = true
+		center_offset = 3
+		text_size = 1.0
+		"opacity_(alpha)" = 1.0
+		x_position = 0
+		y_position = -1
+		x_anchor = 0.5
+		y_anchor = 0.5
+
+[pois]
+
+	[pois.poi_stopwatch]
+		poi_stopwatch = false
+		x_position = 0
+		y_position = -15
+		x_anchor = 0.0
+		y_anchor = 1.0
+		text_color = "255,158,250,118"
+		wait_for_first_input = false
+		"hide_start/stop_text" = false
+		detection_radius = 20
+		auto_start = false
+		auto_start_radius = 3
+
+[compass]
+
+	[compass.compass_waypoint]
+		compass_waypoint = true
+		text_color = "0,255,255,255"
+		inventory_check = true
+		"sprite_(icon)" = true
+
+[dungeons]
+
+	[dungeons.dungeon_state]
+		x_position = -94
+		y_position = 0
+		x_anchor = 1.0
+		y_anchor = 0.0
+		dungeon_state = false
+
+	[dungeons.celestial_zenith]
+		on-grave_sprite = true
+
+[hud_relays]
+
+	[hud_relays."boss_timer(s)_relay"]
+		"footer,_as_bosses_timers,_relay" = false
+		line_spacing = 10
+		x_position = 0
+		y_position = 0
+		x_anchor = 0.0
+		y_anchor = 0.0
+
+	[hud_relays.action_bar_relay]
+		action_bar_relay_display = false
+		max_width = 60
+		x_position = -99
+		y_position = -40
+		x_anchor = 1.0
+		y_anchor = 1.0
+		action_bar_relay_display_duration = 3.0
+
+	[hud_relays.effects_relay]
+		effects_relays = false
+		show_monumenta_effects = true
+		show_monumenta_patreon_shrines = true
+		show_vanilla_effects = true
+		text_color = "144,255,255,255"
+		filter = true
+		effects_filter_list = "Speed,Haste,Regeneration,Starblood Ichor,Ability Cooldowns,Cooldown Recharge Rate,Silence,Resistance"
+		x_position = -63
+		y_position = 80
+		x_anchor = 1.0
+		y_anchor = 0.0
+
+[players]
+
+	[players.on-player_click_actions]
+		player_middle_click_actions = false
+
+	[players.player_vitals]
+		"on-players_vitals_(health_&_status)" = false
+		class_filter = false
+
+[routing]
+
+	[routing.tov_routing]
+		tov_routing = false
+		text_color = "0,255,255,255"
+		travel_trigger_radius = 10
+		waypoints = "[{\"x\":-701,\"y\":74,\"z\":1148},{\"x\":-595,\"y\":63,\"z\":971},{\"x\":-555,\"y\":63,\"z\":642},{\"x\":-679,\"y\":11,\"z\":625},{\"x\":-751,\"y\":53,\"z\":502},{\"x\":-744,\"y\":34,\"z\":390},{\"x\":-632,\"y\":11,\"z\":411},{\"x\":-437,\"y\":5,\"z\":410},{\"x\":-269,\"y\":49,\"z\":296},{\"x\":-321,\"y\":27,\"z\":147},{\"x\":257,\"y\":53,\"z\":-411},{\"x\":-364,\"y\":7,\"z\":-55},{\"x\":-175,\"y\":57,\"z\":-73},{\"x\":-126,\"y\":61,\"z\":-181},{\"x\":45,\"y\":62,\"z\":-243},{\"x\":180,\"y\":71,\"z\":-165},{\"x\":322,\"y\":73,\"z\":-273},{\"x\":269,\"y\":73,\"z\":-389},{\"x\":73,\"y\":32,\"z\":-441},{\"x\":-46,\"y\":62,\"z\":-410},{\"x\":-185,\"y\":40,\"z\":-371},{\"x\":-327,\"y\":39,\"z\":-397},{\"x\":-327,\"y\":49,\"z\":-534},{\"x\":-360,\"y\":53,\"z\":-593},{\"x\":-192,\"y\":34,\"z\":-535},{\"x\":10,\"y\":42,\"z\":-637},{\"x\":237,\"y\":43,\"z\":-620},{\"x\":433,\"y\":20,\"z\":-528},{\"x\":625,\"y\":36,\"z\":-612},{\"x\":723,\"y\":58,\"z\":-570},{\"x\":770,\"y\":10,\"z\":-528},{\"x\":852,\"y\":29,\"z\":-642},{\"x\":673,\"y\":38,\"z\":-371},{\"x\":796,\"y\":45,\"z\":-213},{\"x\":801,\"y\":34,\"z\":-81},{\"x\":792,\"y\":43,\"z\":214},{\"x\":720,\"y\":46,\"z\":268},{\"x\":669,\"y\":59,\"z\":368},{\"x\":825,\"y\":63,\"z\":376},{\"x\":718,\"y\":56,\"z\":542},{\"x\":570,\"y\":16,\"z\":572},{\"x\":515,\"y\":52,\"z\":530},{\"x\":703,\"y\":28,\"z\":684},{\"x\":725,\"y\":46,\"z\":748},{\"x\":824,\"y\":43,\"z\":703},{\"x\":816,\"y\":48,\"z\":932},{\"x\":590,\"y\":65,\"z\":882},{\"x\":598,\"y\":42,\"z\":1132},{\"x\":683,\"y\":49,\"z\":1195},{\"x\":517,\"y\":71,\"z\":1207},{\"x\":431,\"y\":7,\"z\":1193},{\"x\":244,\"y\":58,\"z\":1185},{\"x\":-31,\"y\":50,\"z\":1214},{\"x\":-101,\"y\":25,\"z\":1294},{\"x\":80,\"y\":59,\"z\":1399},{\"x\":264,\"y\":5,\"z\":1504},{\"x\":273,\"y\":61,\"z\":1560},{\"x\":348,\"y\":49,\"z\":1503},{\"x\":457,\"y\":67,\"z\":1440},{\"x\":820,\"y\":58,\"z\":1395},{\"x\":764,\"y\":45,\"z\":1317},{\"x\":750,\"y\":74,\"z\":1554},{\"x\":732,\"y\":49,\"z\":1816},{\"x\":856,\"y\":55,\"z\":1897},{\"x\":550,\"y\":43,\"z\":1809},{\"x\":364,\"y\":19,\"z\":1812},{\"x\":188,\"y\":39,\"z\":1862},{\"x\":111,\"y\":69,\"z\":1728},{\"x\":20,\"y\":76,\"z\":1648},{\"x\":4,\"y\":51,\"z\":1754},{\"x\":-106,\"y\":44,\"z\":1836},{\"x\":-236,\"y\":40,\"z\":1793},{\"x\":-270,\"y\":27,\"z\":1685},{\"x\":-340,\"y\":14,\"z\":1858},{\"x\":-573,\"y\":24,\"z\":1835},{\"x\":-755,\"y\":56,\"z\":1742},{\"x\":-801,\"y\":64,\"z\":1855},{\"x\":-897,\"y\":68,\"z\":1787},{\"x\":-1073,\"y\":64,\"z\":1798},{\"x\":-1175,\"y\":73,\"z\":1855},{\"x\":-1255,\"y\":43,\"z\":1669},{\"x\":-1382,\"y\":6,\"z\":1662},{\"x\":-1447,\"y\":38,\"z\":1794},{\"x\":-1574,\"y\":38,\"z\":1822},{\"x\":-1523,\"y\":19,\"z\":1683},{\"x\":-1742,\"y\":66,\"z\":1648},{\"x\":-1969,\"y\":47,\"z\":1647},{\"x\":-1926,\"y\":43,\"z\":1776},{\"x\":-2133,\"y\":51,\"z\":1790},{\"x\":-2197,\"y\":70,\"z\":1885},{\"x\":-2162,\"y\":60,\"z\":1484},{\"x\":-2168,\"y\":69,\"z\":1317},{\"x\":-2191,\"y\":65,\"z\":1162},{\"x\":-2151,\"y\":51,\"z\":1061},{\"x\":-1885,\"y\":60,\"z\":1034},{\"x\":-1897,\"y\":43,\"z\":961},{\"x\":-1766,\"y\":80,\"z\":856},{\"x\":-1870,\"y\":46,\"z\":694},{\"x\":-2165,\"y\":52,\"z\":783},{\"x\":-2180,\"y\":57,\"z\":554},{\"x\":-2129,\"y\":40,\"z\":443},{\"x\":-2031,\"y\":74,\"z\":449},{\"x\":-2043,\"y\":35,\"z\":134},{\"x\":-2184,\"y\":48,\"z\":231},{\"x\":-2190,\"y\":65,\"z\":30},{\"x\":-2097,\"y\":37,\"z\":-143},{\"x\":-1954,\"y\":36,\"z\":-280},{\"x\":-1883,\"y\":72,\"z\":-330},{\"x\":-1796,\"y\":42,\"z\":-488},{\"x\":-1940,\"y\":32,\"z\":-542},{\"x\":-2010,\"y\":28,\"z\":-602},{\"x\":-2162,\"y\":35,\"z\":-614},{\"x\":-1840,\"y\":47,\"z\":-623},{\"x\":-1743,\"y\":51,\"z\":-631},{\"x\":-1606,\"y\":31,\"z\":-355},{\"x\":-1601,\"y\":66,\"z\":-541},{\"x\":-1432,\"y\":20,\"z\":-485},{\"x\":-1364,\"y\":38,\"z\":-481},{\"x\":-1215,\"y\":17,\"z\":-510},{\"x\":-1056,\"y\":49,\"z\":-453},{\"x\":-735,\"y\":16,\"z\":-531},{\"x\":-770,\"y\":42,\"z\":-381},{\"x\":-601,\"y\":14,\"z\":-182},{\"x\":-546,\"y\":41,\"z\":-234},{\"x\":-412,\"y\":45,\"z\":-344},{\"x\":-579,\"y\":36,\"z\":210},{\"x\":-827,\"y\":63,\"z\":119},{\"x\":-895,\"y\":35,\"z\":54},{\"x\":-710,\"y\":40,\"z\":-1},{\"x\":-813,\"y\":32,\"z\":-104},{\"x\":-898,\"y\":9,\"z\":-134},{\"x\":-982,\"y\":64,\"z\":-193},{\"x\":-993,\"y\":44,\"z\":-318},{\"x\":-1027,\"y\":69,\"z\":-77},{\"x\":-1197,\"y\":65,\"z\":-89},{\"x\":-1021,\"y\":62,\"z\":198},{\"x\":-915,\"y\":66,\"z\":280},{\"x\":-939,\"y\":63,\"z\":454},{\"x\":-869,\"y\":41,\"z\":707},{\"x\":-888,\"y\":57,\"z\":826},{\"x\":-936,\"y\":53,\"z\":1014},{\"x\":-1038,\"y\":73,\"z\":1028},{\"x\":-1037,\"y\":35,\"z\":1187},{\"x\":-1147,\"y\":40,\"z\":1143},{\"x\":-1405,\"y\":52,\"z\":1103},{\"x\":-1525,\"y\":7,\"z\":1244},{\"x\":-1757,\"y\":63,\"z\":1156},{\"x\":-1966,\"y\":49,\"z\":1198},{\"x\":-1851,\"y\":80,\"z\":1387},{\"x\":-1998,\"y\":61,\"z\":1486},{\"x\":-1773,\"y\":42,\"z\":1498},{\"x\":-1724,\"y\":29,\"z\":1530},{\"x\":-1563,\"y\":9,\"z\":1473},{\"x\":-1064,\"y\":43,\"z\":1476},{\"x\":-973,\"y\":56,\"z\":1672},{\"x\":-509,\"y\":45,\"z\":1629},{\"x\":-482,\"y\":62,\"z\":1365},{\"x\":-224,\"y\":44,\"z\":1432},{\"x\":-260,\"y\":54,\"z\":1091},{\"x\":-263,\"y\":43,\"z\":847},{\"x\":-333,\"y\":61,\"z\":868},{\"x\":-317,\"y\":46,\"z\":771},{\"x\":-409,\"y\":74,\"z\":670},{\"x\":-108,\"y\":77,\"z\":684},{\"x\":-187,\"y\":61,\"z\":216},{\"x\":-954,\"y\":44,\"z\":-566},{\"x\":-1268,\"y\":58,\"z\":-382},{\"x\":-522,\"y\":49,\"z\":0},{\"x\":773,\"y\":51,\"z\":1828}]"
+
+["items_&_inventory"]
+
+	["items_&_inventory".ender_chest]
+		ender_chest_search_bar = true
+
+	["items_&_inventory".inventory]
+		inventory_monumenta-related_buttons = false
+
+	["items_&_inventory".plots_shard]
+		calculator = false
+
+	["items_&_inventory".sorting]
+		"block_sorting_on_<plots>" = false
+		block_sorting_in_shulkers = false
+
+	["items_&_inventory".item_overlays]
+		rarity_backdrop = false
+		charm_stars = false
+		fish_tier = false
+		"worldshaper's_loom_&_firmament_count" = false
+		"worldshaper's_loom_warning_threshold" = 96
+		quiver_item_arrows = false
+		quiver_warning_threshold = 96
+		boee_shares = false
+		potion_injectors_potions = false
+		potion_warning_threshold = 10
+		"lime_tesseract_(u)_anvils" = true
+		tesseract_of_the_elements_specialization = true
+		cooldown_on_items = false
+		shulker_icons = true
+
+[tablist_tweaks]
+
+	[tablist_tweaks.custom_tablist]
+		custom_tablist = false
+		shard_emojis = false
+		columns = 2
+		background_color = "119,0,0,0"
+		expand_on_sneak = false
+		frame_style = 6
+		shard-based_shard_section_frame = true
+
+[chat_tweaks]
+
+	[chat_tweaks.player_messages_enchantments]
+		chat_tweaks = true
+		shard_prefix = false
+		shard_emoji = false
+		hide_guild_tag = false
+		class_display = false
+		level_display = false
+		separator = ":"
+
+	[chat_tweaks.server_messages_enchantments]
+		smdps_per-ability_percentage = true
+		smdps_abilities_order = 1
+
+[miscellaneous]
+
+	[miscellaneous.bossbar_percentage]
+		bossbar_percentage = true
+		text_color = "255,85,85,85"
+
+	[miscellaneous.mobs_vitals]
+		"mobs_vitals_display_(health)" = false
+		text_color = "144,255,255,255"
+		x_position = 0
+		y_position = 0
+		x_anchor = 0.5
+		y_anchor = 0.5
+
+[developer]
+
+	[developer.debug]
+		debug_mode = false
+
+	[developer.services]
+		class_provider_service = true
+		class_provider_service_-_umm_compatibility_ = true
+		sound_service = true
+		tablist_provider_service = true
+		item_decorations_service = true
+
+	[developer.variables]
+		spawner_destroyed_confirmation_ticks = 10
+		universal_tick_interval = 20
+		shard_recent_change_delay = 5
+
