@@ -67,6 +67,7 @@ Direct message me on discord at `deepacat` or email `deepacatdev@gmail.com` for 
 - Njol and contributors for "Unofficial Monumenta Mod".
 - Panycle for the "Monumentum" mod.
 - Flowey and Days for the "Monumenta Addons" mod.
+- Minerdwarf222 for the "Stonk Companion" mod.
 - Noelle for the "Homestead" resourcepack, of which I have included the original file and my own edits + fixes to it.
 - NeoVolt in the Monumenta discord for their awesome scout ability icons. (Now built into Unofficial Resourcepack <3)
 - [Smoother Glowing Shader Resourcepack](https://modrinth.com/shader/smoother-glowing) which I couldn't manifest properly due to it being labelled as a shader rather than resourcepack.
