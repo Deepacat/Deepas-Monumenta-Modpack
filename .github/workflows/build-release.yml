@@ -448,7 +448,8 @@ jobs:
         id: check_artifact
         shell: bash
         run: |
-          if [ ! -f ${{ needs.info.outputs.project_file_name }}-modrinth.mrpack ]; then
+          artifact="${{ needs.info.outputs.project_file_name }}-modrinth.mrpack"
+          if [ ! -f "$artifact" ]; then
             echo '::error::No value found for artifact `modrinth.mrpack`.' && exit 1
           fi
           echo "All artifacts found"
@@ -477,6 +478,7 @@ jobs:
           loaders: ${{ needs.info.outputs.loader_type }}
           game-versions: ${{ needs.info.outputs.mc_version }}
           files: ${{ needs.info.outputs.project_file_name }}-modrinth.mrpack
+          channel: ${{ needs.info.outputs.release_type }}
 
   discord-message:
     name: Discord Message

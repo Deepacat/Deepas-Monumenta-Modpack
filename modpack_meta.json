@@ -1,3 +1,3 @@
-{
-  "release_type": "beta"
+{ // "release", "beta", "alpha" acceptable by modrinth
+  "release_type": "release"
 }
