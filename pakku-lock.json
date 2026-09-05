@@ -8,7 +8,89 @@
     },
     "projects": [
         {
-            "pakku_id": "8QTSpQqg7MqT54Mp",
+            "pakku_id": "W2bIoBmocwkvrRSY",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "cannot-remove-from-team-workaround"
+            },
+            "name": {
+                "modrinth": "\"Cannot remove from team\" workaround"
+            },
+            "id": {
+                "modrinth": "PtJIWRcG"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "cannot-remove-from-team-workaround-1.0.0.jar",
+                    "mc_versions": [
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/PtJIWRcG/versions/jrJ1gWaI/cannot-remove-from-team-workaround-1.0.0.jar",
+                    "id": "jrJ1gWaI",
+                    "parent_id": "PtJIWRcG",
+                    "hashes": {
+                        "sha512": "19e546b4a3949a54578376c33eb8aa1feb018c0017fc57b9d9762a8df5138a3580ff21549cbbfd78a762f277028bca28c7b903998d80501cc67148edac8d0670",
+                        "sha1": "b4b712397cc3be6c2d2a89e08da28c19dfb1f06b"
+                    },
+                    "required_dependencies": [],
+                    "size": 13390,
+                    "date_published": "2024-04-13T08:21:03.324619Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zPjxRKhPIbEvKvvc",
+            "pakku_links": [
+                "n7EXSUUGqwJUFPRD"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "advancement-screenshot"
+            },
+            "name": {
+                "modrinth": "Advancement Screenshot"
+            },
+            "id": {
+                "modrinth": "lU8KbfG2"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "advancementscreenshot-1.20.4-4.7.jar",
+                    "mc_versions": [
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/lU8KbfG2/versions/f5ghlrNb/advancementscreenshot-1.20.4-4.7.jar",
+                    "id": "f5ghlrNb",
+                    "parent_id": "lU8KbfG2",
+                    "hashes": {
+                        "sha512": "ed7a7d85b444e9e604a70d04070ccff9452b618d345fbcda47de5bbb2e1e16ca380b76362450c4fbcf6eaec588dfeeec3156035b9aa80331394973e4614d8d62",
+                        "sha1": "bb0d50a22af5a7a2df324d47b3d04245a122706c"
+                    },
+                    "required_dependencies": [
+                        "e0M1UDsY"
+                    ],
+                    "size": 40648,
+                    "date_published": "2023-12-22T17:03:26.482921Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "h5osMKxG1I1HHuwJ",
             "type": "RESOURCE_PACK",
             "side": "CLIENT",
             "slug": {
@@ -44,7 +126,8 @@
                         "1.21.11",
                         "26.1",
                         "26.1.1",
-                        "26.1.2"
+                        "26.1.2",
+                        "26.2"
                     ],
                     "loaders": [
                         "minecraft"
@@ -681,6 +764,46 @@
                     "required_dependencies": [],
                     "size": 1154870,
                     "date_published": "2024-09-16T17:20:39.379267Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "n7EXSUUGqwJUFPRD",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "collective"
+            },
+            "name": {
+                "modrinth": "Collective"
+            },
+            "id": {
+                "modrinth": "e0M1UDsY"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "collective-1.20.4-7.64.jar",
+                    "mc_versions": [
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/qXM06FG6/collective-1.20.4-7.64.jar",
+                    "id": "qXM06FG6",
+                    "parent_id": "e0M1UDsY",
+                    "hashes": {
+                        "sha512": "5a3fe043db65c000d1f51372e3b40c6da09a60df45fd364d61d3ade7e3bddd708ab7958c36c2bccedc5d7cafc33ca81e99a8bf5ede7fa0a4103bf060d7f3c2df",
+                        "sha1": "ebab2dbc48a556fdcff597dd910e6940901cf454"
+                    },
+                    "required_dependencies": [],
+                    "size": 872418,
+                    "date_published": "2024-06-22T22:53:02.645076Z"
                 }
             ]
         },
@@ -2406,7 +2529,7 @@
             ]
         },
         {
-            "pakku_id": "Uyw2U2DpcMCr2A7Q",
+            "pakku_id": "3q4CAjhIQRnBBbYK",
             "type": "RESOURCE_PACK",
             "side": "CLIENT",
             "slug": {
@@ -2421,7 +2544,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "MonumentaRP_v6.1.0.zip",
+                    "file_name": "MonumentaRP_v6.3.0.zip",
                     "mc_versions": [
                         "1.20.4"
                     ],
@@ -2429,16 +2552,16 @@
                         "minecraft"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Yj53Rs56/versions/ud2dFJ6f/MonumentaRP_v6.1.0.zip",
-                    "id": "ud2dFJ6f",
+                    "url": "https://cdn.modrinth.com/data/Yj53Rs56/versions/pUW8VAWf/MonumentaRP_v6.3.0.zip",
+                    "id": "pUW8VAWf",
                     "parent_id": "Yj53Rs56",
                     "hashes": {
-                        "sha512": "c61034bdf6ab78f462e6c56c606320e0eeaa3a3eca5e67caf9187d0ae54f4d01407aa48e316ca7272fc22b0e2016c95a3c0b9860a89cccaaf4aaff6c3321fae4",
-                        "sha1": "9efa1409ed7ccf879d65dd31628c4d6ae063cb38"
+                        "sha512": "c8cf688166ad9b729579b448ab1e267f173842620242c4dec0e95bbc5877feeb791028233ec43c2da050734c2b8ccbd8f40eae573471b60753835bec59d36ee4",
+                        "sha1": "dd84b33a0444f4a93fbd90c04ed23108f8576925"
                     },
                     "required_dependencies": [],
-                    "size": 17035488,
-                    "date_published": "2026-07-16T08:10:30.913396Z"
+                    "size": 19043763,
+                    "date_published": "2026-09-05T15:42:31.150124Z"
                 }
             ]
         },
@@ -3042,6 +3165,59 @@
             ]
         },
         {
+            "pakku_id": "mqYlbcTxK13RwU4q",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "screenshot-to-clipboard"
+            },
+            "name": {
+                "modrinth": "Screenshot to Clipboard"
+            },
+            "id": {
+                "modrinth": "1KiJRrTg"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "screenshot-to-clipboard-1.0.9-fabric.jar",
+                    "mc_versions": [
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1KiJRrTg/versions/1.0.9+fabric/screenshot-to-clipboard-1.0.9-fabric.jar",
+                    "id": "rObP72r1",
+                    "parent_id": "1KiJRrTg",
+                    "hashes": {
+                        "sha512": "d74c132c4d4f77019edf6e1b7d522cea78ec78a17c96bd04290ab1df5caf37b6fe7d94069afffd385750d257ffe427ece55f13137ee765ec1a56ec255d389812",
+                        "sha1": "39c55d7e0ebe4a7f626e0d4bc85b8d2bea353092"
+                    },
+                    "required_dependencies": [],
+                    "size": 16539,
+                    "date_published": "2022-02-10T14:19:13.838917Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "MXTtIrpsfpdi0NAu",
             "pakku_links": [
                 "OwYrt8LksAKNIvuH"
@@ -3122,6 +3298,71 @@
                     ],
                     "size": 1225846,
                     "date_published": "2024-05-19T03:42:04.186665Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Z0FW1XdEWkTfWHrZ",
+            "type": "SHADER",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "smoother-glowing"
+            },
+            "name": {
+                "modrinth": "Smoother Glowing"
+            },
+            "id": {
+                "modrinth": "4j2IMXWX"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Smoother Glowing v1.4.0.zip",
+                    "mc_versions": [
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "vanilla"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/4j2IMXWX/versions/UarJCuQn/Smoother Glowing v1.4.0.zip",
+                    "id": "UarJCuQn",
+                    "parent_id": "4j2IMXWX",
+                    "hashes": {
+                        "sha512": "adfa2836554b4c59ba4bfe84b0fdf96d4d94157fdeb41f42a43d9d321e39780da09b8060c5d8db037bd518682b639b7d87ff0c25568e5170b609f7ba338575bf",
+                        "sha1": "3fde964febeb2b44554b6cc501485a4db9487165"
+                    },
+                    "required_dependencies": [],
+                    "size": 14712,
+                    "date_published": "2025-10-18T22:24:23.810909Z"
                 }
             ]
         },

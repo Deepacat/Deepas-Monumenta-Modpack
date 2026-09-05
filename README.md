@@ -9,7 +9,7 @@ Monumenta is forever free to play, not for profit, and developed by passionate c
 The only monetization is patreon supporters to fund the servers continuation, only giving cosmetics and slight server-wide buffs.
 
 ## About this Modpack
-This modpack is meant to be my optimal immersive new-player experience for the Monumenta server, giving a polished experience without the extra bells and whistles such as extra interface information elements or certain outgoing helper features.
+This modpack is meant to be my optimal immersive new-player experience for the Monumenta server, giving a polished experience without the extra bells and whistles such as extra interface information elements or certain outgoing helper features. (The common Monumenta mods are still there, however most features are disabled to focus on immersion!)
 
 The modpack includes many Monumenta specific mods like the Unofficial Monumenta mod, Monumenta Addons, Monumenta Item Dictionary, USBPlus, and several of vladomemes off-platform mods and forks for Monumenta.
 
@@ -62,7 +62,7 @@ Join my [development discord](https://discord.gg/g99A6SnpDW) for help or any que
 
 Direct message me on discord at `deepacat` or email `deepacatdev@gmail.com` for legal/usage inquiries or potentially disallowed mods.
 
-##**** Huge thanks to (Thankful/legally required credits)
+## Huge thanks to (Thankful/legally required credits)
 - Vladomeme for external mods and forks of mods. (hph, grosshacks, woo, handbook or whatever I might be using currently)
 - Njol and contributors for "Unofficial Monumenta Mod".
 - Panycle for the "Monumentum" mod.

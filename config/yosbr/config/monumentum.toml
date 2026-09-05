@@ -31,7 +31,7 @@
 		abilities_circle = false
 		filter = "Mana Lance,Magma Shield,Arcane Strike,Thunder Step,Cosmic Moonblade,Frost Nova"
 		render_behavior = 1
-		"show_abilities'_max_charges" = true
+		"show_abilities'_max_charges" = false
 		center_offset = 3
 		text_size = 1.0
 		"opacity_(alpha)" = 1.0
@@ -110,7 +110,7 @@
 [players]
 
 	[players.on-player_click_actions]
-		player_middle_click_actions = false
+		player_middle_click_actions = true
 
 	[players.player_vitals]
 		"on-players_vitals_(health_&_status)" = false
@@ -169,7 +169,7 @@
 [chat_tweaks]
 
 	[chat_tweaks.player_messages_enchantments]
-		chat_tweaks = true
+		chat_tweaks = false
 		shard_prefix = false
 		shard_emoji = false
 		hide_guild_tag = false

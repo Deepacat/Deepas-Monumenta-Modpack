@@ -20,7 +20,7 @@
     "shadow": true,
     "effectPadding": false,
     "effectPaddingSize": 52,
-    "enableGlow": false,
+    "enableGlow": true,
     "glowOnFullHP": true,
     "enableWhitelistGlow": true,
     "overrideGrossHacksGlowing": true,
