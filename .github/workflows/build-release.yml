@@ -391,7 +391,8 @@ jobs:
         id: check_artifact
         shell: bash
         run: |
-          if [ ! -f ${{ needs.info.outputs.project_file_name }}-modrinth.mrpack ]; then
+          artifact="${{ needs.info.outputs.project_file_name }}-modrinth.mrpack"
+          if [ ! -f "$artifact" ]; then
             echo '::error::No value found for artifact `modrinth.mrpack`.' && exit 1
           fi
           echo "All artifacts found"
