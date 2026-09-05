@@ -36,7 +36,6 @@ gamma:2.0000000000000013
 renderDistance:10
 simulationDistance:10
 entityDistanceScaling:1.0
-guiScale:3
 particles:0
 maxFps:120
 graphicsMode:1
@@ -44,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/Deepas vanilla tweaks.zip","file/CoffeeGUI_1.21.10_release_v2.0.2.zip","file/MonumentaRP_v6.1.0.zip","file/Deepas fixed Homestead hud.zip","file/Smoother Glowing v1.4.0.zip","file/vanilla tweaks unobtrusive particles.zip","file/§b§lAllure Emoji Pack§r§0.zip"]
+resourcePacks:["vanilla","fabric","file/Deepas vanilla tweaks.zip","file/CoffeeGUI_1.21.10_release_v2.0.2.zip","file/MonumentaRP_v6.3.0.zip","file/Deepas fixed Homestead hud.zip","file/Smoother Glowing v1.4.0.zip","file/vanilla tweaks unobtrusive particles.zip","file/§b§lAllure Emoji Pack§r§0.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -63,7 +62,7 @@ chatHeightFocused:1.0
 chatDelay:0.0
 chatHeightUnfocused:0.4375
 chatScale:1.0
-chatWidth:0.5734547218726784
+chatWidth:0.6463030064130747
 notificationDisplayTime:1.0
 mipmapLevels:4
 useNativeTransport:true
@@ -145,12 +144,12 @@ key_key.clickthrough.toggle:key.keyboard.p
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.open_muffler_gui:key.keyboard.unknown
 key_Dismount:key.keyboard.unknown
-key_Toggle player glowing:key.keyboard.g
+key_Toggle player glowing:key.keyboard.semicolon
 key_hph.keybind.toggleText:key.keyboard.i
-key_hph.keybind.toggleGlow:key.keyboard.u
+key_hph.keybind.toggleGlow:key.keyboard.unknown
 key_hph.keybind.selection:key.keyboard.r
-key_hph.keybind.toggleTextWhitelist:key.keyboard.o
-key_hph.keybind.toggleGlowWhitelist:key.keyboard.y
+key_hph.keybind.toggleTextWhitelist:key.keyboard.unknown
+key_hph.keybind.toggleGlowWhitelist:key.keyboard.unknown
 key_keymap.keyOpenKeymap:key.keyboard.f4
 key_key.mma.meow:key.keyboard.unknown
 key_key.mma.playerstats:key.keyboard.unknown

@@ -69,11 +69,9 @@ Direct message me on discord at `deepacat` or email `deepacatdev@gmail.com` for 
 - Flowey and Days for the "Monumenta Addons" mod.
 - Minerdwarf222 for the "Stonk Companion" mod.
 - Noelle for the "Homestead" resourcepack, of which I have included the original file and my own edits + fixes to it.
-- NeoVolt in the Monumenta discord for their awesome scout ability icons. (Now built into Unofficial Resourcepack <3)
 - [Smoother Glowing Shader Resourcepack](https://modrinth.com/shader/smoother-glowing) which I couldn't manifest properly due to it being labelled as a shader rather than resourcepack.
 - [Vanilla Tweaks](https://vanillatweaks.net/) for my resourcepack configurations using their assets.
 - [Social connect icons pack](https://lunggolfs.itch.io/social-connect-icons-pack) for github and modrinth icons on the main menu.
-- BlueGradientHorizon for [Cannot remove from team workaround](https://modrinth.com/mod/cannot-remove-from-team-workaround) which I have updated the fabric version of myself, so it cannot be manifested.
 - Monumenta for being an amazing MMO-RPG Minecraft Server!
 
 ## Legal/Licensing

@@ -2016,6 +2016,54 @@
             ]
         },
         {
+            "pakku_id": "wECo7TS4yzkg8aFa",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "jasione"
+            },
+            "name": {
+                "modrinth": "Jasione"
+            },
+            "id": {
+                "modrinth": "qlDkBPij"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "jasione-1.0.8+1.20.1-fabric.jar",
+                    "mc_versions": [
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/qlDkBPij/versions/cme2nsCA/jasione-1.0.8+1.20.1-fabric.jar",
+                    "id": "cme2nsCA",
+                    "parent_id": "qlDkBPij",
+                    "hashes": {
+                        "sha512": "045d9148277b190c813091e8605819e17b8cc9a61f13e1e5f63d40e56a1f1fcb987a18f519e7cc53ef4fafc706ff644cd20ea4e89993aa7ca095c4560714a360",
+                        "sha1": "430fe7ab60970844320ac7da10d9fcc43e767090"
+                    },
+                    "required_dependencies": [],
+                    "size": 762364,
+                    "date_published": "2026-08-25T06:56:50.704835Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "JFFer1h7A5l29H9A",
             "type": "MOD",
             "side": "CLIENT",
@@ -3298,71 +3346,6 @@
                     ],
                     "size": 1225846,
                     "date_published": "2024-05-19T03:42:04.186665Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "Z0FW1XdEWkTfWHrZ",
-            "type": "SHADER",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "smoother-glowing"
-            },
-            "name": {
-                "modrinth": "Smoother Glowing"
-            },
-            "id": {
-                "modrinth": "4j2IMXWX"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "Smoother Glowing v1.4.0.zip",
-                    "mc_versions": [
-                        "1.17",
-                        "1.17.1",
-                        "1.18",
-                        "1.18.1",
-                        "1.18.2",
-                        "1.19",
-                        "1.19.1",
-                        "1.19.2",
-                        "1.19.3",
-                        "1.19.4",
-                        "1.20",
-                        "1.20.1",
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.4",
-                        "1.20.5",
-                        "1.20.6",
-                        "1.21",
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3",
-                        "1.21.4",
-                        "1.21.5",
-                        "1.21.6",
-                        "1.21.7",
-                        "1.21.8",
-                        "1.21.9",
-                        "1.21.10",
-                        "1.21.11"
-                    ],
-                    "loaders": [
-                        "vanilla"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/4j2IMXWX/versions/UarJCuQn/Smoother Glowing v1.4.0.zip",
-                    "id": "UarJCuQn",
-                    "parent_id": "4j2IMXWX",
-                    "hashes": {
-                        "sha512": "adfa2836554b4c59ba4bfe84b0fdf96d4d94157fdeb41f42a43d9d321e39780da09b8060c5d8db037bd518682b639b7d87ff0c25568e5170b609f7ba338575bf",
-                        "sha1": "3fde964febeb2b44554b6cc501485a4db9487165"
-                    },
-                    "required_dependencies": [],
-                    "size": 14712,
-                    "date_published": "2025-10-18T22:24:23.810909Z"
                 }
             ]
         },
