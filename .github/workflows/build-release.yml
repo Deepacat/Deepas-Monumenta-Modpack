@@ -358,7 +358,10 @@ jobs:
       - name: Preparing the modrinth artifact
         run: |
           cd ./build/modrinth/
-          mv *.mrpack $(basename -s .mrpack *.mrpack)-modrinth.mrpack
+          for f in *.mrpack; do
+            base="${f%.mrpack}"
+            mv "$f" "${base}-modrinth.mrpack"
+          done
 
       - name: Upload artifact to modrinth
         uses: actions/upload-artifact@v4.6.2

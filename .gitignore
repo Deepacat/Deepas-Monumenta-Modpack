@@ -10,6 +10,7 @@
 /logs/
 /crash-reports/
 /backups/
+/monumentum/
 /resourcepacks/
 /server-resource-packs/
 /screenshots/
@@ -44,6 +45,7 @@
 # Configs that the player are not expected to edit should be unignored so they're replaced on updates
 /config/*
 !/config/yosbr/
+!/config/fancymenu
 
 !/config/fancymenu
 

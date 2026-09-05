@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.0]
+### Changes
+- Updated RP's
+- Added new mods
+  - Monumentum for a couple QOL tweaks (bosbar hp %, enderchest search)
+  - Cannot remove from team fix (Fixes freezes related to serverside damage numbers, very noticeable in Aurora)
+- Overhauled menu with custom splashtexts
+- Removed neovolts icons as it was merged into official Monumenta modpack
+- Tweaked many configs
+
 ## [1.1.0]
 ### Changes
 - Updated MMA to remove now illegal feature, alongside other new features

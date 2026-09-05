@@ -1,7 +1,7 @@
 {
-    "name": "Deepas-Monumenta-Pack",
+    "name": "Deepa's Monumenta Pack Lite",
     "version": "DEV",
-    "description": "Polished modpack for the Monumenta server",
+    "description": "Immersive polished modpack for the Monumenta server",
     "author": "Deepacat",
     "overrides": [
         "config/yosbr/",
@@ -10,5 +10,6 @@
     ],
     "server_overrides": [
         "!*"
-    ]
+    ],
+    "export_server_side_projects_to_client": true
 }

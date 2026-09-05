@@ -1,9 +1,9 @@
 {
-  "weaponCoolDownImportance": "MIDDLE",
-  "showBlockBreaking": true,
+  "weaponCoolDownImportance": "FIRST",
+  "showBlockBreaking": false,
   "showRangeWeaponDraw": true,
-  "showItemCooldowns": true,
+  "showItemCooldowns": false,
   "showFoodAndPotions": true,
-  "disablePickaxesAndShovels": true,
+  "disablePickaxesAndShovels": false,
   "disableAxes": false
 }
