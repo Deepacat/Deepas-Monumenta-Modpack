@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.2.1]
+###
+- Fix modrinth upload action I hope please work
+
 ## [1.2.0]
 ### Changes
 - Updated RP's
