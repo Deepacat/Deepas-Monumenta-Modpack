@@ -1,0 +1,1 @@
+In `modpack_meta.json` "release", "beta", "alpha" are accepted
